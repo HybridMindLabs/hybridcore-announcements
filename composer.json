@@ -1,0 +1,46 @@
+{
+    "name": "hybridmindlabs/hybridcore-announcements",
+    "description": "Official Announcements extension for HybridCore — site-wide, dismissible banner messages with severity levels and scheduling.",
+    "type": "hybridcore-extension",
+    "license": "proprietary",
+    "homepage": "https://github.com/HybridMindLabs/hybridcore-announcements",
+    "authors": [
+        {
+            "name": "HybridMind Labs",
+            "homepage": "https://github.com/HybridMindLabs"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/HybridMindLabs/hybridcore-announcements/issues",
+        "source": "https://github.com/HybridMindLabs/hybridcore-announcements"
+    },
+    "keywords": [
+        "hybridcore",
+        "hybridcore-extension",
+        "announcements",
+        "banner",
+        "gaming",
+        "community"
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hybridcore\\Announcements\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hybridcore\\Announcements\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "hybridcore": {
+            "id": "hybridcore/announcements"
+        }
+    }
+}
