@@ -1,20 +1,20 @@
 {
-    "id": "hybridcore/announcements",
-    "name": "Announcements",
-    "version": "1.1.0",
-    "description": "Site-wide, dismissible announcement banners for HybridCore. Schedule messages, pick a severity level, and every visitor can dismiss one on their own.",
-    "author": "HybridMind Labs",
-    "type": "official",
-    "provider": "Hybridcore\\Announcements\\AnnouncementsServiceProvider",
-    "routes": {
-        "web":   "routes/web.php",
-        "admin": "routes/admin.php"
-    },
-    "migrations": "database/migrations",
-    "lang":           "resources/lang",
-    "lang_namespace": "announcements",
-    "update_url": "https://api.github.com/repos/HybridMindLabs/hybridcore-announcements/releases/latest",
-    "requires": {
-        "core": ">=0.3.0"
-    }
+  "id": "hybridcore/announcements",
+  "name": "Announcements",
+  "version": "1.1.1",
+  "description": "Site-wide, dismissible announcement banners for HybridCore. Schedule messages, pick a severity level, and every visitor can dismiss one on their own.",
+  "author": "HybridMind Labs",
+  "type": "official",
+  "provider": "Hybridcore\\Announcements\\AnnouncementsServiceProvider",
+  "routes": {
+    "web": "routes/web.php",
+    "admin": "routes/admin.php"
+  },
+  "migrations": "database/migrations",
+  "lang": "resources/lang",
+  "lang_namespace": "announcements",
+  "update_url": "https://api.github.com/repos/HybridMindLabs/hybridcore-announcements/releases/latest",
+  "requires": {
+    "core": ">=0.3.0"
+  }
 }
