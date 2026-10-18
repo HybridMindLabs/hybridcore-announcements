@@ -2,7 +2,7 @@
     "name": "hybridmindlabs/hybridcore-announcements",
     "description": "Official Announcements extension for HybridCore — site-wide, dismissible banner messages with severity levels and scheduling.",
     "type": "hybridcore-extension",
-    "license": "proprietary",
+    "license": "PolyForm-Noncommercial-1.0.0",
     "homepage": "https://github.com/HybridMindLabs/hybridcore-announcements",
     "authors": [
         {
